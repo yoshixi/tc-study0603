@@ -1,0 +1,91 @@
+header .left-wrap {
+  background-color: #253141;
+  padding: 35px 20px 15px;
+  height: 100px; }
+  header .left-wrap ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: bold; }
+  header .left-wrap ul li:first-child {
+    font-size: 16px; }
+header .right-wrap {
+  padding: 35px 40px 0px; }
+  header .right-wrap .group-name {
+    font-size: 20px;
+    margin-bottom: 15px; }
+  header .right-wrap .members {
+    line-height: 20px;
+    color: #999;
+    font-size: 12px; }
+    header .right-wrap .members span {
+      margin-left: 3px; }
+
+.mainbox .left-wrap {
+  min-height: calc(100vh - 190px); }
+  .mainbox .left-wrap ul.groups {
+    padding-top: 20px; }
+    .mainbox .left-wrap ul.groups li.group {
+      margin-bottom: 40px; }
+      .mainbox .left-wrap ul.groups li.group .group__name {
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 5px; }
+      .mainbox .left-wrap ul.groups li.group .group__message {
+        color: #fff;
+        font-size: 11px; }
+.mainbox .right-wrap {
+  background: #EEE; }
+  .mainbox .right-wrap ul.messages {
+    padding-top: 46px; }
+    .mainbox .right-wrap ul.messages .message__sender {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px; }
+      .mainbox .right-wrap ul.messages .message__sender span {
+        font-size: 12px;
+        color: #999;
+        font-weight: initial;
+        margin-left: 10px; }
+    .mainbox .right-wrap ul.messages .message__text {
+      font-size: 14px;
+      color: #434A54;
+      margin-bottom: 40px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 90px; }
+  footer .left-wrap {
+    height: 100%; }
+  footer .right-wrap {
+    height: 100%;
+    background-color: #ddd;
+    padding-top: 20px; }
+    footer .right-wrap form .text-area {
+      float: left;
+      width: calc(100% - 115px);
+      height: 50px; }
+      footer .right-wrap form .text-area textarea {
+        width: 100%;
+        height: 50px;
+        padding: 15px 10px;
+        line-height: 20px;
+        border: none;
+        resize: none;
+        display: block; }
+      footer .right-wrap form .text-area i {
+        color: black; }
+    footer .right-wrap form input {
+      float: left;
+      width: 100px;
+      margin-left: 15px;
+      line-height: 50px;
+      color: #fff;
+      background-color: #38aef0;
+      text-align: center;
+      border: none;
+      padding: 0; }
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

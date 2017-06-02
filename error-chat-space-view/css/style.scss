@@ -1,0 +1,135 @@
+
+@charset "UTF-8";
+$lightBlue: #38aef0;
+$bgLeftTop: #253141;
+$bgLeftBottom: #2f3e51;
+$txtRightColor: #434A54;
+$msgColor: #434A54;
+$white: #fff;
+
+
+header{
+  .left-wrap {
+    background-color: $bgLeftTop;
+    padding: 35px 20px 15px;
+    height: 100px;
+    ul {
+      li{
+        color:white;
+        font-size: 18px;
+        font-weight: bold;
+        }
+      li:first-child{
+        font-size: 16px;
+      }
+    }
+  }
+  .right-wrap {
+    padding: 35px 40px 0px;
+    .group-name {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .members {
+      line-height: 20px;
+      color: #999;
+      font-size: 12px;
+      span {
+        margin-left: 3px;
+      }
+    }
+  }
+}
+.mainbox {
+  .left-wrap {
+    min-height: calc(100vh - 190px);
+    ul.groups {
+      padding-top: 20px;
+      li.group {
+        margin-bottom: 40px;
+       .group__name{
+         color: $white;
+         font-size: 15px;
+         margin-bottom: 5px;
+       }
+       .group__message {
+         color: $white;
+         font-size: 11px;
+       }
+      }
+    }
+  }
+  .right-wrap {
+    background: #EEE;
+    // ${q2}
+    ul.messages {
+      padding-top: 46px;
+      .message {
+        &__sender {
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          span {
+            font-size: 12px;
+            color: #999;
+            font-weight: initial;
+            margin-left: 10px;
+          }
+        }
+        &__text {
+          font-size: 14px;
+          color: $msgColor;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  .left-wrap {
+    height: 100%;
+  }
+  .right-wrap {
+    height: 100%;
+    background-color: #ddd;
+    padding-top: 20px;
+    form {
+      .text-area {
+        float: left;
+        width: calc(100% - 115px);
+        height: 50px;
+        // ${q3}
+        //  
+        textarea{
+          width: 100%;
+          height: 50px;
+          padding: 15px 10px;
+          line-height: 20px;
+          border: none;
+          resize: none;
+          display: block;
+        }
+        i {
+          // ${q3}
+          color: black;
+          }
+      }
+      input {
+        float: left;
+        width: 100px;
+        margin-left: 15px;
+        line-height: 50px;
+        color: #fff;
+        background-color: #38aef0;
+        text-align: center;
+        border: none;
+        padding: 0;
+      }
+    }
+  }
+}
+/*# sourceMappingURL=style.scss.map */

@@ -1,0 +1,64 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.fa {
+  color: #fff;
+}
+
+/*:visited擬似クラス …… 訪問済のリンクにスタイルを適用する*/
+a:visited {
+  color: inherit;
+}
+
+.left-wrap {
+  float: left;
+  width: 300px;
+  padding: 0px 20px;
+  background: #2f3e51;
+  //display: none;
+}
+.right-wrap {
+  float: right;
+  width: calc(100vw - 300px);
+  // width: 100%;
+  padding: 0px 40px;
+}
+
+@media screen and (max-width: 640px) {
+  .right-wrap{
+    float: none;
+    width: 100%;
+  }
+  .left-wrap {
+    display: none;
+  }
+  .left-wrap.active{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+}

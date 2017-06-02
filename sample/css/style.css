@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+  padding-bottom: 70px;
+}
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+.box {
+  height: 100px;
+}
+
+
+.calc-box {
+  height: auto;
+}
+.calc-box .right{
+  background: #2EFEF7;
+  height: 200px;
+  float: left;
+
+  width: 50%;
+  /*width: 200px;*/
+}
+.calc-box .left{
+  background: #642EFE;
+  height: 200px;
+  float: left;
+  width: 50%;
+  /*width: calc(100% - 200px);*/
+}
+
+.inline-block li {
+  color: #FFF;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background: blue;
+  /*display: inline-block;*/
+  /*line-height: 100px;*/
+}
+
+.overflow-y {
+  height: 300px;
+  width: 300px;
+  border: 1px solid;
+  /*overflow: hidden;*/
+}
+.overflow-y .in{
+  height: 400px;
+  width: 200px;
+  background: #642EFE;
+  margin: 0 auto;
+}
+
+.position{
+  height: 400px;
+  width: 100%;
+  background: rgb(238, 238, 238);
+  position: relative;
+}
+
+.position .in01{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background: #2EFEF7;
+}
+.position .in02 {
+  height: 100px;
+  width: 100px;
+  background: #642EFE;
+  position: absolute;
+}
+
+/* Clearfix*/
+  .clearfix { zoom:1; }
+  .clearfix:after { content:"."; display: block; height:0px; clear:both; line-height:0; visibility:hidden; }

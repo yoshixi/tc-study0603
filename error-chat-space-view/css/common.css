@@ -1,0 +1,38 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  width: 100%; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.fa {
+  color: #fff; }
+
+/*:visited擬似クラス …… 訪問済のリンクにスタイルを適用する*/
+a:visited {
+  color: inherit; }
+
+.left-wrap {
+  float: left;
+  width: 300px;
+  padding: 0px 20px;
+  background: #2f3e51; }
+
+.right-wrap {
+  float: right;
+  width: 500px;
+  padding: 0px 40px; }
+
+/*# sourceMappingURL=common.css.map */
