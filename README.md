@@ -10,3 +10,12 @@
 - 自分で考える
 - 受動的にしない
 
+## アジェンダ
+
+1. デザインから考えるHTMLのマークアップ
+2. chat-spaceを作る上で外せないcssプロパティ
+  - calc()
+  - display
+  - line-height 
+  - overflow
+  - position
