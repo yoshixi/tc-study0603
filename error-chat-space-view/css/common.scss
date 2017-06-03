@@ -42,7 +42,6 @@ a:visited {
 }
 .right-wrap {
   float: right;
-  // ${q0} widthの変更
-  width: 500px;
+  width: calc(100vw - 300px);
   padding: 0px 40px;
 }

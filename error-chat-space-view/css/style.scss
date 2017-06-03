@@ -18,9 +18,11 @@ header{
         color:white;
         font-size: 18px;
         font-weight: bold;
+        // ${q1}
         }
       li:first-child{
         font-size: 16px;
+        // ${q1}
       }
     }
   }
@@ -103,7 +105,6 @@ footer {
         width: calc(100% - 115px);
         height: 50px;
         // ${q3}
-        //  
         textarea{
           width: 100%;
           height: 50px;

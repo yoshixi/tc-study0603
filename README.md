@@ -19,3 +19,11 @@
   - line-height 
   - overflow
   - position
+
+
+## scss compile
+
+```
+cd chat-space-view
+sass --watch ./
+```
