@@ -22,8 +22,8 @@
 
 
 ## scss compile
+このディレクトリに移動して、下記コマンドでコンパイルできます
 
 ```
-cd chat-space-view
 sass --watch ./
 ```
